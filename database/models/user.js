@@ -22,8 +22,6 @@ const userSchema=mongoose.Schema({
     },dor:{
         type:Date,
         required:true
-    },status:{
-        type:String
     },ppa:{
         type:Number
     },token:{
