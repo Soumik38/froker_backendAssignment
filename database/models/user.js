@@ -16,15 +16,15 @@ const userSchema=mongoose.Schema({
     },salary:{
         type:Number,
         required:true
-    },dob:{
+    },dob:{      // date of birth 
         type:Date,
         required:true
-    },dor:{
+    },dor:{      // date of registration
         type:Date,
         required:true
-    },ppa:{
+    },ppa:{      // Purchase Power Amount
         type:Number
-    },token:{
+    },token:{    // JWT token
         type:String
     }
 })
